@@ -10,4 +10,4 @@ In other words, this module will make the default Magento2 order numbers modifie
   3. Your final module directory should look like this: app/code/SethIam/RemoveLeadingZeros/registration.php & app/code/SethIam/RemoveLeadingZeros/etc/di.xml --module.xml
   4. Once complete, run "php bin/magento module:enable SethIam_RemoveLeadingZeros" in your CLI
   5. Then run "php bin/magento setup:upgrade"
-  6. TADA!! Test by creating a new order, and check to ensure it removed the zeros.
+  6. Tada! Test by creating a new order, and check to ensure it removed the zeros.
